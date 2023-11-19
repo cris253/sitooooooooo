@@ -1,0 +1,21 @@
+:root {
+    --text-color: #333;
+    --background-color: #fff;
+   }
+   
+   body {
+    color: var(--text-color);
+    background-color: var(--background-color);
+   }
+   
+   h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+   }
+   
+   button {
+    cursor: pointer;
+   }
+   
+   button:disabled {
+    cursor: not-allowed;
+   }
